@@ -13,50 +13,70 @@ else:
     Computer_choice=random.choice(Computer)
     if Choice=="Rock":
         if Computer_choice=="Rock":
+            time.sleep(0.7)
             print ("Both players chose Rock!\nIt's a draw!")
         if Computer_choice=="Paper":
+            time.sleep(0.7)
             print ("The computer chose Paper and Paper covers Rock!\nYou lost.")
         if Computer_choice=="Scissors":
+            time.sleep(0.7)
             print ("The computer chose Scissors and Rock breaks Scissors!\nYou won!")
     if Choice=="Paper":
         if Computer_choice=="Rock":
+            time.sleep(0.7)
             print ("The computer chose Rock and Paper covers Rock!\nYou won!")
         if Computer_choice=="Paper":
+            time.sleep(0.7)
             print ("Both players chose Paper!\nIt's a draw!")
         if Computer_choice=="Scissors":
+            time.sleep(0.7)
             print ("The computer chose Scissors and Scissors cut Paper!\nYou lost.")
     if Choice=="Scissors":
         if Computer_choice=="Rock":
+            time.sleep(0.7)
             print ("The computer chose Rock Rock breaks Scissors!\nYou lost.")
         if Computer_choice=="Paper":
+            time.sleep(0.7)
             print ("The computer chose Paper and Scissors cut Paper!\nYou won!")
         if Computer_choice=="Scissors":
+            time.sleep(0.7)
             print ("Both players chose Scissors!\n It's a draw!")
     while True:
+        time.sleep(0.7)
         Again=str(input("Do you want to play again? (Yes/No)  "))
         if Again=="No":
+            print ("Thanks for playing this game!")
             quit()
         else:
             Choice=str(input("Enter your choice (Rock/Paper/Scissors) - "))    
             Computer_choice=random.choice(Computer)
             if Choice=="Rock":
                 if Computer_choice=="Rock":
+                    time.sleep(0.7)
                     print ("Both players chose Rock!\nIt's a draw!")
                 if Computer_choice=="Paper":
+                    time.sleep(0.7)
                     print ("The computer chose Paper and Paper covers Rock!\nYou lost.")
                 if Computer_choice=="Scissors":
+                    time.sleep(0.7)
                     print ("The computer chose Scissors and Rock breaks Scissors!\nYou won!")
             if Choice=="Paper":
                 if Computer_choice=="Rock":
+                    time.sleep(0.7)
                     print ("The computer chose Rock and Paper covers Rock!\nYou won!")
                 if Computer_choice=="Paper":
+                    time.sleep(0.7)
                     print ("Both players chose Paper!\nIt's a draw!")
                 if Computer_choice=="Scissors":
+                    time.sleep(0.7)
                     print ("The computer chose Scissors and Scissors cut Paper!\nYou lost.")
             if Choice=="Scissors":
                 if Computer_choice=="Rock":
+                    time.sleep(0.7)
                     print ("The computer chose Rock Rock breaks Scissors!\nYou lost.")
                 if Computer_choice=="Paper":
+                    time.sleep(0.7)
                     print ("The computer chose Paper and Scissors cut Paper!\nYou won!")
                 if Computer_choice=="Scissors":
+                    time.sleep(0.7)
                     print ("Both players chose Scissors!\n It's a draw!")
